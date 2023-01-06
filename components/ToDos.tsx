@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
+import React from 'react';
+import { StyleSheet,View, FlatList } from 'react-native';
 import ToDoList from './ToDoList';
 
 
@@ -10,8 +10,6 @@ const arr = [
 ];
 
 const Todos = () => {
-
-    const [selected, setSelected] = useState(false);
 
     return (
         <View style={styles.container}>
@@ -35,7 +33,6 @@ const styles = StyleSheet.create({
     container: {
         width: '100%', 
         height: 'auto',
-        // color: 'black',
         alignItems: 'center',
         justifyContent: 'flex-start',
         display: 'flex',

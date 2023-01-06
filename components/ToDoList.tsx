@@ -50,8 +50,6 @@ const ToDoList = (props: ITodoProps) => {
 
 export default ToDoList;
 
-
-
 const styles = StyleSheet.create({
   container: {
     width: '100%',
