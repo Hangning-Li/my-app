@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
-import AppStyles from "../styles/AppStyles"
-import BouncyCheckbox from "react-native-bouncy-checkbox";
-// import Todo from '../models/todo'
 import ToDoList from './ToDoList';
 
 

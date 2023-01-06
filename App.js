@@ -3,9 +3,6 @@ import {View, ImageBackground, Text } from 'react-native';
 import AppStyles from "./styles/AppStyles"
 import Todos from './components/ToDos';
 import React, {useState, useEffect} from 'react';
-// import app, { fireDB } from './Firebase';
-
-
 
 export default function App() {
   const background = require("./assets/images/background.jpg");
